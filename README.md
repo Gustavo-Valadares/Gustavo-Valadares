@@ -72,7 +72,7 @@ I use AI as a tool under a protocol of my own: threat-surface assessment before 
 Mostly coursework and small personal tools — the production work above is private.
 
 - **[OOS-Trabalho-Tecnico-Estagio](https://github.com/Gustavo-Valadares/OOS-Trabalho-Tecnico-Estagio)** — object-oriented system in C++ simulating character interaction in a game (health, mana, shield, attack).
-- **[Automation](https://github.com/Gustavo-Valadares/Automation)** — Python folder organizer that watches a directory and sorts files automatically.
+- **[Automation](https://github.com/Gustavo-Valadares/Automation)** — Python folder organizer that watches "downloads" directory and sorts images to "images" directory automatically.
 
 ---
 
