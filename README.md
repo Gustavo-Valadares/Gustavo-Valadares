@@ -77,14 +77,6 @@ Mostly coursework and small personal tools — the production work above is priv
 
 ---
 
-## 📊 GitHub
-
-<p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=Gustavo-Valadares&show_icons=true&hide_border=true&theme=default" alt="Stats">
-</p>
-
----
-
 <p align="center">
   <a href="https://www.linkedin.com/in/gustavo-henrique-valadares-402b8a24a">LinkedIn</a> ·
   gustavoh.valadares@outlook.com · Goiânia, Brazil
