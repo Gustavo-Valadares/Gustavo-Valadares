@@ -26,7 +26,7 @@ Most of my code lives in private repositories, so this page describes what I act
 
 B2B AI software startup. WhatsApp-based CRM and lead prospecting platform, in production.
 
-- 🤖 Migrated lead prospecting from an **n8n** workflow to a **LangGraph** agent in the backend — search, preparation, optional human review and dispatch — integrating Google Maps (via Apify) and OpenAI.
+- 🤖 Migrated lead prospecting from an **n8n** workflow to a **LangGraph** flow in the backend — search, filtering and dispatch — integrating Google Maps via **Apify**, with template-based message personalization and optional sending.
 - 💰 Built neighborhood-level lead search with **cost control**: geocoder validation before spending credits, scraping ceiling, and aborting the run once the requested amount is reached.
 - 🐳 Deployed the application to a VPS with Easypanel (Docker containers).
 
@@ -34,9 +34,9 @@ B2B AI software startup. WhatsApp-based CRM and lead prospecting platform, in pr
 flowchart LR
     A[Niche + city] --> B[Search on Google Maps]
     B --> C[Neighborhood filter]
-    C --> D{Human review}
-    D -->|approved| E[Send on WhatsApp]
-    D -->|skipped| E
+    C --> D[Mobile number validation]
+    D --> E[Message from template]
+    E --> F[Send on WhatsApp]
 ```
 
 `React 18` `TypeScript` `Python` `FastAPI` `PostgreSQL` `LangGraph` `Docker`
@@ -72,7 +72,7 @@ I use AI as a tool under a protocol of my own: threat-surface assessment before 
 Mostly coursework and small personal tools — the production work above is private.
 
 - **[OOS-Trabalho-Tecnico-Estagio](https://github.com/Gustavo-Valadares/OOS-Trabalho-Tecnico-Estagio)** — object-oriented system in C++ simulating character interaction in a game (health, mana, shield, attack).
-- **[ImgSentinel](https://github.com/Gustavo-Valadares/Automation/tree/master/ImgSentinel)** — Python folder organizer that watches "downloads" directory and sorts images to "images" directory automatically.
+- **[ImgSentinel](https://github.com/Gustavo-Valadares/Automation/tree/master/ImgSentinel)** — Python folder organizer that watches the downloads directory and sorts images into the images directory automatically.
 - **[Ticket-Purchase-System](https://github.com/Gustavo-Valadares/Ticket-Purchase-System)** — C++ ticket management system that simulates buying and selling tickets for different events, including event handling, user interaction, and transaction logic.
 
 ---
